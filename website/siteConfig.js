@@ -16,12 +16,12 @@ const users = [
     // if it is not '/', like: '/test-site/img/image.jpg'.
     image: '/img/undraw_open_source.svg',
     infoLink: 'https://www.facebook.com',
-    pinned: true,
-  },
+    pinned: true
+  }
 ]
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
+  title: 'Chaos Recipe', // Title for your website.
   tagline: 'A website for testing',
   url: 'https://recipe.xueli.li', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -40,24 +40,24 @@ const siteConfig = {
   headerLinks: [
     {
       doc: 'doc1',
-      label: 'Docs',
-    },
-    {
-      doc: 'doc4',
-      label: 'API',
-    },
-    {
-      page: 'help',
-      label: 'Help',
-    },
-    {
-      blog: true,
-      label: 'Blog',
-    },
+      label: 'Recipe'
+    }
+    // {
+    //   doc: 'doc4',
+    //   label: 'API'
+    // },
+    // {
+    //   page: 'help',
+    //   label: 'Help',
+    // },
+    // {
+    //   blog: true,
+    //   label: 'Blog',
+    // },
   ],
 
   // If you have users set above, you add it here:
-  users,
+  // users,
 
   /* path to images for header/footer */
   headerIcon: 'img/favicon.ico',
@@ -66,8 +66,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#080638',
-    secondaryColor: '#050427',
+    primaryColor: '#7E3FBD',
+    secondaryColor: '#372963'
   },
 
   /* Custom fonts for website */
@@ -85,11 +85,11 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Chaos Recipe`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    theme: 'default'
   },
 
   // Add custom scripts here that would be placed in <script> tags.
@@ -102,7 +102,7 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
-  twitterImage: 'img/undraw_tweetstorm.svg',
+  twitterImage: 'img/undraw_tweetstorm.svg'
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.

@@ -23,15 +23,13 @@
       }
     },
     "links": {
-      "Docs": "Docs",
-      "API": "API",
-      "Help": "Help",
-      "Blog": "Blog"
+      "Recipe": "Recipe"
     },
     "categories": {
       "Docusaurus": "Docusaurus",
       "First Category": "First Category",
-      "Second Category": "Second Category"
+      "Second Category": "Second Category",
+      "Interview Questions": "Interview Questions"
     }
   },
   "pages-strings": {

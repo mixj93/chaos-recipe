@@ -102,8 +102,8 @@ class Index extends React.Component {
               'The illustrations you see on this page are from unDraw.',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
-          },
+            title: 'Wonderful SVG Illustrations'
+          }
         ]}
       </Block>
     )
@@ -115,8 +115,8 @@ class Index extends React.Component {
             content: 'This is another description of how this project is useful',
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
-            title: 'Description',
-          },
+            title: 'Description'
+          }
         ]}
       </Block>
     )
@@ -128,8 +128,8 @@ class Index extends React.Component {
             content: 'Each new Docusaurus project has **randomly-generated** theme colors.',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
-          },
+            title: 'Randomly Generated Theme Colors'
+          }
         ]}
       </Block>
     )
@@ -141,14 +141,14 @@ class Index extends React.Component {
             content: 'This is the content of my feature',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Feature One'
           },
           {
             content: 'The content of my second feature',
             image: `${baseUrl}img/undraw_operating_system.svg`,
             imageAlign: 'top',
-            title: 'Feature Two',
-          },
+            title: 'Feature Two'
+          }
         ]}
       </Block>
     )
